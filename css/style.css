@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {color: firebrick;
+	background-color: gainsboro;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+
+
+}
+
+
+body {width: 960px;
+	margin: 0 auto;
+	background-color: gainsboro;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	}
+
+nav li { 
+	display: inline;
+	text-align: center;
+	color: gray;
+	background-color: gainsboro;
+	font-style: italic;
+	font-stretch: extra-expanded;
+	font-weight:600;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-top:0 auto;
+	border-style: none;
+	border-width: 1px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin: 20px 20px 20px 20px;}
+img {position: relative}
+a:link{
+	text-decoration: none;
+		color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+
+
+a:visited { color:black;}
+a:hover {text-decoration: underline;
+color:darkblue;}
+a:active {text-decoration: underline;
+color: red;}
+
+.column {
+	float: left;
+	width: 300px;
+	color: royalblue;
+	margin: 10px;
+	text-transform: bold;
+}
+header { text-decoration: inherit;
+	text-transform: bold;
+	color:royalblue;
+	margin: 5px;
+
+
+}
+article { text-decoration: bold}
+
+li { list-style-type: none;
+	text-align: center;
+}
+h2 {color: firebrick;}
+a {text-decoration: underline;}
+p {text-align: center;}
